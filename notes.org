@@ -1,0 +1,8 @@
+These are the commands from the video:
+#+begin_src sql
+ALTER TABLE fana ADD COLUMN artist_id INTEGER
+
+INSERT INTO
+fana (name, artist_id)
+VALUES("Jacques", 22)
+#+end_src
